@@ -22,10 +22,13 @@ body {
   background-size: cover;
 }
 
-p, 
-h1,
-label,
-.form__radio-legend {
+.survey-header__title,
+.form__input-label,
+.form__select-label,
+.form__radio-legend,
+.form__checkbox-title,
+.form__checkbox-label,
+.form__comments-label {
   margin-bottom: 8px;
 }
 
