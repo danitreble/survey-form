@@ -44,7 +44,7 @@ body {
 }
 
 .survey-header__title {
-  width: 80%;
+  width: 100%;
 
   line-height: 1.2;
   font-weight: 400;
@@ -52,14 +52,17 @@ body {
 }
 
 .survey-header__subtitle {
-  width: 95%;
+  width: 100%;
 
   font-size: 1.8em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
   padding: 40px 10px;
+
   background: rgba(27, 27, 50, 0.8);
   border-radius: 0.25em;
   height: 100%;
@@ -149,6 +152,26 @@ body {
   font-size: 16px; 
 }
 
+@media only screen and (min-width: 480px) {
+  .form {
+    padding: 40px;
+  }
+}
 
+@media only screen and (min-width: 576px) {
+  .form {
+    margin: 0 auto;
+
+    height: 1470px;
+    width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    height: 1420px;
+    width: 720px;
+  }
+}
 
 
