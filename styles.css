@@ -23,12 +23,8 @@ body {
 }
 
 .survey-header__title,
-.form__input-label,
-.form__select-label,
-.form__radio-legend,
-.form__checkbox-title,
-.form__checkbox-label,
-.form__comments-label {
+.form__label,
+.form__label--checkbox {
   margin-bottom: 8px;
 }
 
@@ -101,12 +97,11 @@ body {
   border: none;
 }
 
-.form__radio-label {
+.form__label--radio {
   margin-bottom: 0;
 }
 
-.form__radio-input,
-.form__checkbox-input {
+.form__input {
   margin-right: 10px;
   width: 20px;
   height: 20px; 
@@ -118,12 +113,12 @@ body {
   align-items: center;
 }
 
-.form__checkbox-title-info {
+.form__label--info {
   font-size: 15px;
   font-style: normal;
 }
 
-.form__checkbox-label {
+.form__label--checkbox {
   display: flex;
   flex-direction: row;
   align-items: center;
